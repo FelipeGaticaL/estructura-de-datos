@@ -73,6 +73,102 @@ En **lenguajes no tipados**, como javascript, no solemos darle importancia al ti
 				
 Este **problema del tipado**, hoy en día, cuando una App es pequeña, no tiene mayor incidencia en la memoria. Pero sí tiene **incidencia, al detectar errores en el código y facilitar el mantenimiento**. En el caso de Javascript, un lenguaje que busca solucionar esto es TypeScript, el cual introduce "sintaxis de tipado estático" que permite definir tipos de datos para las variables. Y con esto, lo que quiero decir, es que :eyes::eyes: **entender la estructura de los datos, no sólo tiene que ver con cuestiones de eficiencia y almacenamiento, sino, que entender que los tipos de datos, en cada uno de los flujos, también tiene incidencia al momento de producirse errores o problemas de mantenimiento de la App** :eyes::eyes:. 
 
+
+#### Estructuras estáticas
+
+- Array (Arreglo): Objetos similares a una lista cuyo prototipo proporciona métodos para efectuar operaciones de recorrido y de mutación. En este caso,
+
+**Lenguaje Tipado**
+```c++
+int numeros[5]; 
+```
+**Lenguaje No Tipado**
+```js
+const numeros = [1, 2, 3, 4, 5];
+```
+- Matriz: Es similar a un arreglo, pero con dos o más dimensiones.
+
+**Lenguaje Tipado**
+```c++
+int matriz[3][3];
+```
+**Lenguaje No Tipado**
+```js
+const matriz = [[1, 2, 3], [4, 5, 6]];
+```
+- Struct (Registro): Es una estructura de datos que permite agrupar varios elementos de diferentes tipos en una sola entidad.
+
+**Lenguaje Tipado**
+```c++
+struct Persona {
+  string nombre;
+  int edad;
+  float estatura;
+};
+```
+**Lenguaje No Tipado**
+```js
+const persona = {
+  nombre: "Juan",
+  edad: 30,
+  direccion: {
+    calle: "Av. Principal",
+    numero: 123,
+    ciudad: "Ciudad de México"
+  }
+};
+```
+- Enum (Enumaeración):  Es una estructura de datos que permite definir un conjunto de constantes enteras con nombres simbólicos. 
+
+**Lenguaje Tipado**
+```c++
+enum DiaSemana {
+  Lunes,
+  Martes,
+  Miercoles,
+  Jueves,
+  Viernes,
+  Sabado,
+  Domingo
+};
+```
+**Lenguaje No Tipado**
+```js
+const colores = {
+  ROJO: "rojo",
+  VERDE: "verde",
+  AZUL: "azul"
+};
+```
+- Const (Constante): No es una estructura de datos propiamente dicha, pero es una forma de definir valores constantes que pueden ser utilizados en el programa. 
+**Lenguaje Tipado**
+```c++
+const double velocidad_luz = 299792458;
+```
+**Lenguaje No Tipado**
+```js
+const PI = 3.1416;
+```
+
+#### Estructuras dinámicas
+
+
+**Lineales**
+
+- Listas enlazadas (linked lists): una secuencia de elementos enlazados por punteros. Cada elemento (nodo) contiene un valor y un puntero al siguiente nodo.
+
+- Colas (queues): una secuencia en la que el primer elemento en ser agregado es el primero en ser eliminado (FIFO, first-in-first-out). Se puede implementar utilizando una lista enlazada o un arreglo.
+
+- Pilas (stacks): una secuencia en la que el último elemento en ser agregado es el primero en ser eliminado (LIFO, last-in-first-out). También se puede implementar utilizando una lista enlazada o un arreglo.
+
+**No lineales**
+
+- Árboles (trees): una estructura jerárquica en la que cada elemento tiene un padre y cero o más hijos. Los árboles pueden tener un nodo raíz, nodos hoja (sin hijos) y nodos internos (con hijos).
+
+- Grafos (graphs): una estructura que consta de un conjunto de nodos (vértices) conectados por un conjunto de aristas (arcos). Los grafos pueden ser dirigidos o no dirigidos.
+
+- Tablas hash (hash tables): una estructura que permite acceder a los datos a través de una clave en lugar de un índice. Se utiliza una función hash para convertir la clave en una posición en la tabla.
+
 ---
 
 #### Estructura de datos externos:
