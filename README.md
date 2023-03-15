@@ -178,7 +178,7 @@ const PI = 3.1416;
 
 
 
-###Lineales: :slot_machine: 
+### Lineales: :slot_machine: 
 
 **_Son aquellas en las que los datos están organizados en una secuencia lineal, es decir, cada elemento está conectado con su sucesor y predecesor (si lo tiene)._**
 
