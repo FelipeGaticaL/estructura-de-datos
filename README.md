@@ -87,23 +87,27 @@ Este **problema del tipado**, hoy en día, cuando una App es pequeña, no tiene 
 ```c++
 int numeros[5]; 
 ```
-**Lenguaje No Tipado**
+<sub> Lenguaje no tipado </sub>
+
 ```js
 const numeros = [1, 2, 3, 4, 5];
 ```
 - :owl:**Matriz:** Es similar a un arreglo, pero con dos o más dimensiones.
 
-**Lenguaje Tipado**
+<sub> Lenguaje Tipado </sub>
+
 ```c++
 int matriz[3][3];
 ```
-**Lenguaje No Tipado**
+<sub> Lenguaje no tipado </sub>
+
 ```js
 const matriz = [[1, 2, 3], [4, 5, 6]];
 ```
 - :owl:**Struct (Registro)**: Es una estructura de datos que permite agrupar varios elementos de diferentes tipos en una sola entidad.
 
-**Lenguaje Tipado**
+<sub> Lenguaje Tipado </sub>
+
 ```c++
 struct Persona {
   string nombre;
@@ -111,7 +115,8 @@ struct Persona {
   float estatura;
 };
 ```
-**Lenguaje No Tipado**
+<sub> Lenguaje no tipado </sub>
+
 ```js
 const persona = {
   nombre: "Juan",
@@ -125,7 +130,8 @@ const persona = {
 ```
 - :owl:**Enum (Enumaeración)**:  Es una estructura de datos que permite definir un conjunto de constantes enteras con nombres simbólicos. 
 
-**Lenguaje Tipado**
+<sub> Lenguaje Tipado </sub>
+
 ```c++
 enum DiaSemana {
   Lunes,
@@ -137,7 +143,8 @@ enum DiaSemana {
   Domingo
 };
 ```
-**Lenguaje No Tipado**
+<sub> Lenguaje no tipado</sub>
+
 ```js
 const colores = {
   ROJO: "rojo",
@@ -147,11 +154,13 @@ const colores = {
 ```
 - :owl:**Const (Constante)**: No es una estructura de datos propiamente dicha, pero es una forma de definir valores constantes que pueden ser utilizados en el programa. 
 
-**Lenguaje Tipado**
+<sub> Lenguaje Tipado </sub>
+
 ```c++
 const double velocidad_luz = 299792458;
 ```
-**Lenguaje No Tipado**
+<sub> Lenguaje no tipado </sub>
+
 ```js
 const PI = 3.1416;
 ```
