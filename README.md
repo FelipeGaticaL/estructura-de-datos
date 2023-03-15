@@ -8,11 +8,11 @@ Existen dos grandes aristas en la estructura de datos, de **dimensiones internas
 La segunda manera de ver esto, es pensar que la estructura de datos tiene dos líneas generales, en las cuales existe un set de herramientas, que dependen de las necesidades del proyecto por el tipo de flujo, eficiencia y volumen en el manejo de datos. 
 
 ---
-#### ¿Por qué es importante?
+#### ¿Por qué es importante? :collision::collision:
 	
 Porque nos permite definir **herramientas y métodos** tanto a nivel hardware como a nivel de lenguaje/software para solucionar y generar desarrollo de acuerdo a las necesidades propias del proyecto.
 
-Por ejemplo: 
+:dizzy: Por ejemplo: 
 
 - ¿El proyecto por su tipo de flujo de datos, bastará con una estructura JSON o será necesario generar una persistencia en una Base de Datos?
 - ¿El volumen de datos, tendrá mejor eficiencia y eficacia a través de métodos/funciones lineales o no lineales?
@@ -30,7 +30,21 @@ Existen de dos tipos, **estática y dinámica**. La primera es un elemento que s
 - Estático sería: **variable = [a,b,c,d]** -> Ya existe declarada por tanto se sabe la memoria a utilizar.
 - Dinámico sería: **new variable = [e,f,g,h]** -> Tiene asignado una memoria inicial, pero, digamos que debemos iterar más elementos con un **bucle for y push (js)**. Bueno, ahora dependerá del flujo y cantidad de datos, cuánta memoria final abarcará al terminar el proceso.
 				
+```js
 
+const numeros = []; // Asignamiento de memoria
+
+// Ciclo iterativo dinámico
+for (let i = 0; i < 10; i++) {
+  if (i % 2 === 0) {
+    numeros.push(i);
+  }
+}
+
+console.log(numeros); /
+// Salida: [0, 2, 4, 6, 8]
+
+```
 
 :monocle_face: **Yendo más allá:** :monocle_face:
 				
