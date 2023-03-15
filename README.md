@@ -81,10 +81,10 @@ Este **problema del tipado**, hoy en día, cuando una App es pequeña, no tiene 
 
 
 ---
-#### Recursos:
+### Recursos para profundizar:
 
-https://www.geeksforgeeks.org/data-structures/
-https://www.programiz.com/dsa/data-structure-types
-https://www.javatpoint.com/data-structure-tutorial
-https://towardsdatascience.com/8-common-data-structures-every-programmer-must-know-171acf6a1a42
-https://www.simplilearn.com/tutorials/data-structure-tutorial/what-is-data-structure
+- https://www.geeksforgeeks.org/data-structures/
+- https://www.programiz.com/dsa/data-structure-types
+- https://www.javatpoint.com/data-structure-tutorial
+- https://towardsdatascience.com/8-common-data-structures-every-programmer-must-know-171acf6a1a42
+- https://www.simplilearn.com/tutorials/data-structure-tutorial/what-is-data-structure
