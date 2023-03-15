@@ -1,10 +1,13 @@
 #### Estructuras de datos
 
+
 A veces, una de las grandes falencias de un developer, es no entender ciertas bases de la programación, una de ellas es la **"Estructura de Datos"**. Tener claro qué es la estructura de datos es súper importante ya que nos permite tener un mejor panorama al momento de enfrentarse a los problemáticas de cada proyecto, porque nos da una dimensión y/o perspectiva sobre **qué, cómo y de qué forma vamos a organizar, almacenar y manipular la información (datos)**. La estructura de datos es esencial para la gestión eficiente de grandes volúmenes de data, y son la puerta de entrada para esbozar algoritmos y desarrollar aplicaciones. 
 
 Existen dos grandes aristas en la estructura de datos, de **dimensiones internas o externas**. **La primera manera de ver esto**, es pensar qué tipo de almacenamiento va a utilizar el computador, si la **memoria principal propia (RAM)** o si va a utilizar un dispositivo externo, ya sea base de datos, disco duro u otros. **La capacidad interna, suele ser más eficiente y rápida**, y está determinada por una cantidad limitada de almacenamiento. Mientras que la **estructura de datos externa**, es más lenta, pero tiene **mayor capacidad de almacenamiento**. Entonces, de acuerdo a la primera visión, una es más eficiente pero de menor volumen de capacidad de almacenamiento de datos, y la otra es menos eficiente pero de mayor volumen. 
 		
 La segunda manera de ver esto, es pensar que la estructura de datos tiene dos líneas generales, en las cuales existe un set de herramientas, que dependen de las necesidades del proyecto por el tipo de flujo, eficiencia y volumen en el manejo de datos. 
+
+---
 #### ¿Por qué es importante?
 	
 Es importante, porque nos permite definir **herramientas y métodos** tanto a nivel hardware como a nivel de lenguaje/software para solucionar y generar desarrollo de acuerdo a las necesidades propias del proyecto.
@@ -17,6 +20,7 @@ Por ejemplo:
 
 Teniendo claro qué estructuras de datos hay, y cuáles son las más comunes, posiblemente nos podremos hacernos una idea de cuál serán los problemas que nos vamos a enfrentar, y con ello, manejar un stack tecnológico que nos ayude a poder hacerle frente de mejor manera. 
 
+---
 #### Estructura de datos internos:
 	
 Existen de dos tipos, **estática y dinámica**. La primera es un elemento que se sabe que su tamaño será fijo, y tendrá asignada una memoria durante la ejecución del programa, por su características, suelen ser las más eficientes. La segunda, si bien parte con una memoria asignada, durante la ejecución, está variará y no se sabe a priori cuánto será el total utilizado. 
@@ -44,13 +48,15 @@ En **lenguajes no tipados**, como javascript, no solemos darle importancia al ti
 				
 				
 Este **problema del tipado**, hoy en día, cuando una App es pequeña, no tiene mayor incidencia en la memoria. Pero sí tiene **incidencia, al detectar errores en el código y facilitar el mantenimiento**. En el caso de Javascript, un lenguaje que busca solucionar esto es TypeScript, el cual introduce "sintaxis de tipado estático" que permite definir tipos de datos para las variables. Y con esto, lo que quiero decir, es que **entender la estructura de los datos, no sólo tiene que ver con cuestiones de eficiencia y almacenamiento, sino, que entender que los tipos de datos, en cada uno de los flujos, también tiene incidencia al momento de producirse errores o problemas de mantenimiento de la App**. 
-				
+
+---
+
 #### Estructura de datos externos:
 
 
 
 
-
+---
 #### Recursos:
 
 https://www.geeksforgeeks.org/data-structures/
