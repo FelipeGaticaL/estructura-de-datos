@@ -231,7 +231,7 @@ _<sub>Recurso de profundización:<sub>_ <sub>https://medium.com/@aliafsah1988/ha
 
 ---
 
-#### Estructura de datos externos:
+### Estructura de datos externos:
 
 Las estructuras de datos externas son una clase especial de estructuras de datos que se utilizan para manejar **grandes cantidades de datos** que no caben completamente en la memoria principal de un sistema. Estas estructuras son esenciales en aplicaciones que procesan grandes conjuntos de datos, como bases de datos, sistemas de almacenamiento en disco y sistemas de archivos. El objetivo principal de las estructuras de datos externas es permitir un acceso eficiente a los datos almacenados en dispositivos externos, como discos duros, cintas magnéticas y memorias USB, lo que hace posible procesar conjuntos de datos que no caben completamente en la memoria principal del sistema.
 
