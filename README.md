@@ -76,7 +76,7 @@ Este **problema del tipado**, hoy en día, cuando una App es pequeña, no tiene 
 
 #### Estructuras estáticas
 
-- Array (Arreglo): Objetos similares a una lista cuyo prototipo proporciona métodos para efectuar operaciones de recorrido y de mutación. En este caso,
+- :owl:**Array (Arreglo):** Objetos similares a una lista cuyo prototipo proporciona métodos para efectuar operaciones de recorrido y de mutación. 
 
 **Lenguaje Tipado**
 ```c++
@@ -86,7 +86,7 @@ int numeros[5];
 ```js
 const numeros = [1, 2, 3, 4, 5];
 ```
-- Matriz: Es similar a un arreglo, pero con dos o más dimensiones.
+- :owl:**Matriz:** Es similar a un arreglo, pero con dos o más dimensiones.
 
 **Lenguaje Tipado**
 ```c++
@@ -96,7 +96,7 @@ int matriz[3][3];
 ```js
 const matriz = [[1, 2, 3], [4, 5, 6]];
 ```
-- Struct (Registro): Es una estructura de datos que permite agrupar varios elementos de diferentes tipos en una sola entidad.
+- :owl:**Struct (Registro)**: Es una estructura de datos que permite agrupar varios elementos de diferentes tipos en una sola entidad.
 
 **Lenguaje Tipado**
 ```c++
@@ -118,7 +118,7 @@ const persona = {
   }
 };
 ```
-- Enum (Enumaeración):  Es una estructura de datos que permite definir un conjunto de constantes enteras con nombres simbólicos. 
+- :owl:**Enum (Enumaeración)**:  Es una estructura de datos que permite definir un conjunto de constantes enteras con nombres simbólicos. 
 
 **Lenguaje Tipado**
 ```c++
@@ -140,7 +140,7 @@ const colores = {
   AZUL: "azul"
 };
 ```
-- Const (Constante): No es una estructura de datos propiamente dicha, pero es una forma de definir valores constantes que pueden ser utilizados en el programa. 
+- :owl:**Const (Constante)**: No es una estructura de datos propiamente dicha, pero es una forma de definir valores constantes que pueden ser utilizados en el programa. 
 **Lenguaje Tipado**
 ```c++
 const double velocidad_luz = 299792458;
