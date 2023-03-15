@@ -175,7 +175,7 @@ const PI = 3.1416;
 **Dinámico**: Se refiere a que **puede variar de tamaño** durante la ejecución del programa y se utilizan para almacenar datos que pueden crecer o disminuir en tamaño. 
 
 
-#### Lineales
+#### Lineales: :slot_machine:
 
 **_Son aquellas en las que los datos están organizados en una secuencia lineal, es decir, cada elemento está conectado con su sucesor y predecesor (si lo tiene)._**
 
@@ -185,7 +185,7 @@ const PI = 3.1416;
 
 - Pilas (stacks): una secuencia en la que el último elemento en ser agregado es el primero en ser eliminado (LIFO, last-in-first-out). También se puede implementar utilizando una lista enlazada o un arreglo.
 
-**No lineales**
+### No lineales: :dna:
 
 **_Son aquellas que no tienen una organización secuencial, y que por tanto, se pueden entender a veces dentro de lo que se denómina teoría de conjuntos y subconjuntos, que tiene que ver con la relación entre sus elementos_**
 
