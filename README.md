@@ -165,8 +165,9 @@ const double velocidad_luz = 299792458;
 const PI = 3.1416;
 ```
 
-#### Estructuras dinámicas
+---
 
+### Estructura de datos internos: Estructuras dinámicas :volcano:
 
 **Lineales**
 
