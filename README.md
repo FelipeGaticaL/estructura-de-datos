@@ -181,9 +181,32 @@ const PI = 3.1416;
 
 - Listas enlazadas (linked lists): una secuencia de elementos enlazados por punteros. Cada elemento (nodo) contiene un valor y un puntero al siguiente nodo.
 
+_Recurso de profundización:_ <sub>https://medium.com/@dcortes.net/listas-enlazadas-en-javascript-18d991f1d6fd</sub>
+
+- Tuplas: es una estructura de datos que permite almacenar un conjunto de elementos heterogéneos (es decir, de diferentes tipos de datos) en una única variable. A diferencia de los arreglos o listas, donde todos los elementos tienen el mismo tipo de datos, las tuplas pueden contener diferentes tipos de datos en cada una de sus posiciones.
+
+<sub> Tupla Array </sub>
+
+```js
+const mi_tupla = ("Juan", 25, True, 1.75)
+```
+<sub> Tupla Object </sub>
+
+```js
+const miTupla = { nombre: 'Juan', edad: 25, casado: false };
+```
+
+_Recurso de profundización:_ 
+- <sub>https://ntgard.medium.com/tuples-in-javascript-cd33321e5277</sub>
+- <sub>https://medium.com/the-clever-dev/the-difference-between-a-tuple-and-an-array-in-typescript-e9fe9cc4a862</sub>
+
 - Colas (queues): una secuencia en la que el primer elemento en ser agregado es el primero en ser eliminado (FIFO, first-in-first-out). Se puede implementar utilizando una lista enlazada o un arreglo.
 
+_Recurso de profundización:_ <sub>https://medium.com/@dcortes.net/colas-en-javascript-queues-df85e43cd018</sub>
+
 - Pilas (stacks): una secuencia en la que el último elemento en ser agregado es el primero en ser eliminado (LIFO, last-in-first-out). También se puede implementar utilizando una lista enlazada o un arreglo.
+
+_Recurso de profundización:_ <sub>https://medium.com/@dcortes.net/pilas-en-javascript-stacks-e77fe6e4f7a5</sub>
 
 ### No lineales: :dna:
 
@@ -191,14 +214,64 @@ const PI = 3.1416;
 
 - Árboles (trees): una estructura jerárquica en la que cada elemento tiene un padre y cero o más hijos. Los árboles pueden tener un nodo raíz, nodos hoja (sin hijos) y nodos internos (con hijos).
 
+_Recurso de profundización:_ <sub>https://medium.com/laboratoria-developers/%C3%A1rboles-trees-51783ba4ebe5</sub>
+
 - Grafos (graphs): una estructura que consta de un conjunto de nodos (vértices) conectados por un conjunto de aristas (arcos). Los grafos pueden ser dirigidos o no dirigidos.
 
+_Recurso de profundización:_ <sub>https://medium.com/laboratoria-developers/grafos-o-graphs-1e575c89f17</sub>
+
 - Tablas hash (hash tables): una estructura que permite acceder a los datos a través de una clave en lugar de un índice. Se utiliza una función hash para convertir la clave en una posición en la tabla.
+
+_Recurso de profundización:_ <sub>https://medium.com/@aliafsah1988/hash-tables-in-javascript-ff59b5f6d8d3</sub>
 
 ---
 
 #### Estructura de datos externos:
 
+Las estructuras de datos externas son una clase especial de estructuras de datos que se utilizan para manejar **grandes cantidades de datos** que no caben completamente en la memoria principal de un sistema. Estas estructuras son esenciales en aplicaciones que procesan grandes conjuntos de datos, como bases de datos, sistemas de almacenamiento en disco y sistemas de archivos. El objetivo principal de las estructuras de datos externas es permitir un acceso eficiente a los datos almacenados en dispositivos externos, como discos duros, cintas magnéticas y memorias USB, lo que hace posible procesar conjuntos de datos que no caben completamente en la memoria principal del sistema.
+
+_Estructuras generales_
+
+- Base de datos
+    - SQL
+    - NoSQL
+- JSON
+- XML
+- CSV 
+
+#### **Conceptos claves "base de datos":**
+
+#### Qué es SQL?
+
+SQL (Structured Query Language) es un lenguaje de programación utilizado para administrar y manipular bases de datos relacionales. Se utiliza para realizar una variedad de operaciones, como crear, actualizar y eliminar registros en una base de datos, así como para consultar y recuperar información específica de los datos almacenados en la base de datos.
+
+**_Base de datos_**
+
+- MySQL
+- PostgreSQL
+- Oracle
+- Microsoft SQL Server
+- SQLite
+
+**Conceptos importantes en SQL:**
+
+Tables, Stored procedures, Indexes, Primary key, UUID, Foreign key, Join, Query, Transaction, View, Trigger, Aggregate function, Data type, Constraint, Normalization, Subquery, Cursor, Backup and restore, Replication, User-defined function (UDF) y ACID properties.
+
+#### Qué es NoSQL?
+
+NoSQL (Not Only SQL) se centra en tablas y relaciones predefinidas entre ellas, diseñadas para manejar datos no estructurados o semiestructurados, como documentos, gráficos o claves y valores. Son altamente escalables y se adaptan bien a entornos distribuidos y de alta velocidad
+
+
+**_Base de datos_**
+
+- MongoDB
+- Cassandra
+- CouchDB
+- Redis
+
+**Conceptos importantes en SQL:**
+
+Document database, Key-value store, Column-family database, Graph database, Sharding, Replication, CAP theorem, MapReduce, Consistency model, BSON, Query API, Indexing strategies, Distributed database, Eventual consistency, ACID vs. BASE y Document-oriented design
 
 
 
