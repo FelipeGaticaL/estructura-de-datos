@@ -1,4 +1,4 @@
-#### Estructuras de datos
+### Estructuras de datos :eye_speech_bubble: :eye_speech_bubble:
 
 
 A veces, una de las grandes falencias de un developer, es no entender ciertas bases de la programación, una de ellas es la **"Estructura de Datos"**. Tener claro qué es la estructura de datos es súper importante ya que nos permite tener un mejor panorama al momento de enfrentarse a los problemáticas de cada proyecto, porque nos da una dimensión y/o perspectiva sobre **qué, cómo y de qué forma vamos a organizar, almacenar y manipular la información (datos)**. La estructura de datos es esencial para la gestión eficiente de grandes volúmenes de data, y son la puerta de entrada para esbozar algoritmos y desarrollar aplicaciones. 
@@ -10,7 +10,7 @@ La segunda manera de ver esto, es pensar que la estructura de datos tiene dos l�
 ---
 #### ¿Por qué es importante?
 	
-Es importante, porque nos permite definir **herramientas y métodos** tanto a nivel hardware como a nivel de lenguaje/software para solucionar y generar desarrollo de acuerdo a las necesidades propias del proyecto.
+Porque nos permite definir **herramientas y métodos** tanto a nivel hardware como a nivel de lenguaje/software para solucionar y generar desarrollo de acuerdo a las necesidades propias del proyecto.
 
 Por ejemplo: 
 
@@ -21,16 +21,18 @@ Por ejemplo:
 Teniendo claro qué estructuras de datos hay, y cuáles son las más comunes, posiblemente nos podremos hacernos una idea de cuál serán los problemas que nos vamos a enfrentar, y con ello, manejar un stack tecnológico que nos ayude a poder hacerle frente de mejor manera. 
 
 ---
-#### Estructura de datos internos:
+### Estructura de datos internos:
 	
 Existen de dos tipos, **estática y dinámica**. La primera es un elemento que se sabe que su tamaño será fijo, y tendrá asignada una memoria durante la ejecución del programa, por su características, suelen ser las más eficientes. La segunda, si bien parte con una memoria asignada, durante la ejecución, está variará y no se sabe a priori cuánto será el total utilizado. 
 		
-**Aterrizando esto a lenguaje:**
+**Aterrizando esto a lenguaje:** :robot:
 				
 - Estático sería: **variable = [a,b,c,d]** -> Ya existe declarada por tanto se sabe la memoria a utilizar.
-- Dinámico sería: **new variable = [e,f,g,h]** -> Tiene asignado una memoria inicial, pero, digamos que debemos iterar más elementos con un bucle for y push (js). Bueno, ahora dependerá del flujo y cantidad de datos, cuánta memoria final abarcará al terminar el proceso.
+- Dinámico sería: **new variable = [e,f,g,h]** -> Tiene asignado una memoria inicial, pero, digamos que debemos iterar más elementos con un **bucle for y push (js)**. Bueno, ahora dependerá del flujo y cantidad de datos, cuánta memoria final abarcará al terminar el proceso.
 				
-**Yendo más allá:**
+
+
+:monocle_face: **Yendo más allá:** :monocle_face:
 				
 En **lenguajes no tipados**, como javascript, no solemos darle importancia al tipo de datos. Pero al comienzo de la programación, cuando el software tenía menor potencia de procesamiento, el tipo de dato nos decía cuántos bytes de memoria iba a utilizar, lo que tenía un impacto brutal en computadoras de antaño. 
 				
