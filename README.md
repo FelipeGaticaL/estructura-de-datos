@@ -172,10 +172,10 @@ const PI = 3.1416;
 
 ### Estructura de datos internos: Estructuras dinámicas :volcano:
 
-**Dinámico**: Se refiere a **puede variar de tamaño** durante la ejecución del programa y se utilizan para almacenar datos que pueden crecer o disminuir en tamaño. 
+**Dinámico**: Se refiere a que **puede variar de tamaño** durante la ejecución del programa y se utilizan para almacenar datos que pueden crecer o disminuir en tamaño. 
 
 
-**Lineales**
+#### Lineales
 
 **_Son aquellas en las que los datos están organizados en una secuencia lineal, es decir, cada elemento está conectado con su sucesor y predecesor (si lo tiene)._**
 
