@@ -176,15 +176,13 @@ const PI = 3.1416;
 **Dinámico**: Se refiere a que **puede variar de tamaño** durante la ejecución del programa y se utilizan para almacenar datos que pueden crecer o disminuir en tamaño. 
 
 
-#### Lineales: :slot_machine:
+**Lineales:** :slot_machine: **_Son aquellas en las que los datos están organizados en una secuencia lineal, es decir, cada elemento está conectado con su sucesor y predecesor (si lo tiene)._**
 
-**_Son aquellas en las que los datos están organizados en una secuencia lineal, es decir, cada elemento está conectado con su sucesor y predecesor (si lo tiene)._**
-
-- **Listas enlazadas (linked lists):** una secuencia de elementos enlazados por punteros. Cada elemento (nodo) contiene un valor y un puntero al siguiente nodo.
+- :woman_technologist:**Listas enlazadas (linked lists):** una secuencia de elementos enlazados por punteros. Cada elemento (nodo) contiene un valor y un puntero al siguiente nodo.
 
 _<sub>Recurso de profundización:<sub>_ <sub>https://medium.com/@dcortes.net/listas-enlazadas-en-javascript-18d991f1d6fd</sub>
 
-- **Tuplas:** es una estructura de datos que permite almacenar un conjunto de elementos heterogéneos (es decir, de diferentes tipos de datos) en una única variable. A diferencia de los arreglos o listas, donde todos los elementos tienen el mismo tipo de datos, las tuplas pueden contener diferentes tipos de datos en cada una de sus posiciones.
+- :woman_technologist:**Tuplas:** es una estructura de datos que permite almacenar un conjunto de elementos heterogéneos (es decir, de diferentes tipos de datos) en una única variable. A diferencia de los arreglos o listas, donde todos los elementos tienen el mismo tipo de datos, las tuplas pueden contener diferentes tipos de datos en cada una de sus posiciones.
 
 <sub> Tupla Array </sub>
 
@@ -204,11 +202,11 @@ _<sub>Recurso de profundización:<sub>_
 <sub>https://medium.com/the-clever-dev/the-difference-between-a-tuple-and-an-array-in-typescript-e9fe9cc4a862</sub>
 
 
-- **Colas (queues):** una secuencia en la que el primer elemento en ser agregado es el primero en ser eliminado (FIFO, first-in-first-out). Se puede implementar utilizando una lista enlazada o un arreglo.
+- :woman_technologist:**Colas (queues):** una secuencia en la que el primer elemento en ser agregado es el primero en ser eliminado (FIFO, first-in-first-out). Se puede implementar utilizando una lista enlazada o un arreglo.
 
 _<sub>Recurso de profundización:<sub>_ <sub>https://medium.com/@dcortes.net/colas-en-javascript-queues-df85e43cd018</sub>
 
-- **Pilas (stacks):** una secuencia en la que el último elemento en ser agregado es el primero en ser eliminado (LIFO, last-in-first-out). También se puede implementar utilizando una lista enlazada o un arreglo.
+- :woman_technologist:**Pilas (stacks):** una secuencia en la que el último elemento en ser agregado es el primero en ser eliminado (LIFO, last-in-first-out). También se puede implementar utilizando una lista enlazada o un arreglo.
 
 _<sub>Recurso de profundización:<sub>_ <sub>https://medium.com/@dcortes.net/pilas-en-javascript-stacks-e77fe6e4f7a5</sub>
 
@@ -216,15 +214,15 @@ _<sub>Recurso de profundización:<sub>_ <sub>https://medium.com/@dcortes.net/pil
 
 **_Son aquellas que no tienen una organización secuencial, y que por tanto, se pueden entender a veces dentro de lo que se denómina teoría de conjuntos y subconjuntos, que tiene que ver con la relación entre sus elementos_**
 
-- **Árboles (trees):** una estructura jerárquica en la que cada elemento tiene un padre y cero o más hijos. Los árboles pueden tener un nodo raíz, nodos hoja (sin hijos) y nodos internos (con hijos).
+- :woman_technologist:**Árboles (trees):** una estructura jerárquica en la que cada elemento tiene un padre y cero o más hijos. Los árboles pueden tener un nodo raíz, nodos hoja (sin hijos) y nodos internos (con hijos).
 
 _<sub>Recurso de profundización:<sub>_ <sub>https://medium.com/laboratoria-developers/%C3%A1rboles-trees-51783ba4ebe5</sub>
 
-- **Grafos (graphs):** una estructura que consta de un conjunto de nodos (vértices) conectados por un conjunto de aristas (arcos). Los grafos pueden ser dirigidos o no dirigidos.
+- :woman_technologist:**Grafos (graphs):** una estructura que consta de un conjunto de nodos (vértices) conectados por un conjunto de aristas (arcos). Los grafos pueden ser dirigidos o no dirigidos.
 
 _<sub>Recurso de profundización:<sub>_ <sub>https://medium.com/laboratoria-developers/grafos-o-graphs-1e575c89f17</sub>
 
-- **Tablas hash (hash tables):** una estructura que permite acceder a los datos a través de una clave en lugar de un índice. Se utiliza una función hash para convertir la clave en una posición en la tabla.
+- :woman_technologist:**Tablas hash (hash tables):** una estructura que permite acceder a los datos a través de una clave en lugar de un índice. Se utiliza una función hash para convertir la clave en una posición en la tabla.
 
 _<sub>Recurso de profundización:<sub>_ <sub>https://medium.com/@aliafsah1988/hash-tables-in-javascript-ff59b5f6d8d3</sub>
 
