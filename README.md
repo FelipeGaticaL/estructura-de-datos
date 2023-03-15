@@ -181,7 +181,7 @@ const PI = 3.1416;
 
 - Listas enlazadas (linked lists): una secuencia de elementos enlazados por punteros. Cada elemento (nodo) contiene un valor y un puntero al siguiente nodo.
 
-_Recurso de profundización:_ <sub>https://medium.com/@dcortes.net/listas-enlazadas-en-javascript-18d991f1d6fd</sub>
+_<sub>Recurso de profundización:<sub>_ <sub>https://medium.com/@dcortes.net/listas-enlazadas-en-javascript-18d991f1d6fd</sub>
 
 - Tuplas: es una estructura de datos que permite almacenar un conjunto de elementos heterogéneos (es decir, de diferentes tipos de datos) en una única variable. A diferencia de los arreglos o listas, donde todos los elementos tienen el mismo tipo de datos, las tuplas pueden contener diferentes tipos de datos en cada una de sus posiciones.
 
@@ -196,7 +196,7 @@ const mi_tupla = ("Juan", 25, True, 1.75)
 const miTupla = { nombre: 'Juan', edad: 25, casado: false };
 ```
 
-_Recurso de profundización:_ 
+_<sub>Recurso de profundización:<sub>_
 
 <sub>https://ntgard.medium.com/tuples-in-javascript-cd33321e5277</sub>
 
@@ -205,11 +205,11 @@ _Recurso de profundización:_
 
 - Colas (queues): una secuencia en la que el primer elemento en ser agregado es el primero en ser eliminado (FIFO, first-in-first-out). Se puede implementar utilizando una lista enlazada o un arreglo.
 
-_Recurso de profundización:_ <sub>https://medium.com/@dcortes.net/colas-en-javascript-queues-df85e43cd018</sub>
+_<sub>Recurso de profundización:<sub>_ <sub>https://medium.com/@dcortes.net/colas-en-javascript-queues-df85e43cd018</sub>
 
 - Pilas (stacks): una secuencia en la que el último elemento en ser agregado es el primero en ser eliminado (LIFO, last-in-first-out). También se puede implementar utilizando una lista enlazada o un arreglo.
 
-_Recurso de profundización:_ <sub>https://medium.com/@dcortes.net/pilas-en-javascript-stacks-e77fe6e4f7a5</sub>
+_<sub>Recurso de profundización:<sub>_ <sub>https://medium.com/@dcortes.net/pilas-en-javascript-stacks-e77fe6e4f7a5</sub>
 
 ### No lineales: :dna:
 
@@ -217,15 +217,15 @@ _Recurso de profundización:_ <sub>https://medium.com/@dcortes.net/pilas-en-java
 
 - Árboles (trees): una estructura jerárquica en la que cada elemento tiene un padre y cero o más hijos. Los árboles pueden tener un nodo raíz, nodos hoja (sin hijos) y nodos internos (con hijos).
 
-_Recurso de profundización:_ <sub>https://medium.com/laboratoria-developers/%C3%A1rboles-trees-51783ba4ebe5</sub>
+_<sub>Recurso de profundización:<sub>_ <sub>https://medium.com/laboratoria-developers/%C3%A1rboles-trees-51783ba4ebe5</sub>
 
 - Grafos (graphs): una estructura que consta de un conjunto de nodos (vértices) conectados por un conjunto de aristas (arcos). Los grafos pueden ser dirigidos o no dirigidos.
 
-_Recurso de profundización:_ <sub>https://medium.com/laboratoria-developers/grafos-o-graphs-1e575c89f17</sub>
+_<sub>Recurso de profundización:<sub>_ <sub>https://medium.com/laboratoria-developers/grafos-o-graphs-1e575c89f17</sub>
 
 - Tablas hash (hash tables): una estructura que permite acceder a los datos a través de una clave en lugar de un índice. Se utiliza una función hash para convertir la clave en una posición en la tabla.
 
-_Recurso de profundización:_ <sub>https://medium.com/@aliafsah1988/hash-tables-in-javascript-ff59b5f6d8d3</sub>
+_<sub>Recurso de profundización:<sub>_ <sub>https://medium.com/@aliafsah1988/hash-tables-in-javascript-ff59b5f6d8d3</sub>
 
 ---
 
