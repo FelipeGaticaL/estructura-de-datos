@@ -176,7 +176,11 @@ const PI = 3.1416;
 **Dinámico**: Se refiere a que **puede variar de tamaño** durante la ejecución del programa y se utilizan para almacenar datos que pueden crecer o disminuir en tamaño. 
 
 
-**Lineales:** :slot_machine: **_Son aquellas en las que los datos están organizados en una secuencia lineal, es decir, cada elemento está conectado con su sucesor y predecesor (si lo tiene)._**
+
+
+###Lineales: :slot_machine: 
+
+**_Son aquellas en las que los datos están organizados en una secuencia lineal, es decir, cada elemento está conectado con su sucesor y predecesor (si lo tiene)._**
 
 - :woman_technologist:**Listas enlazadas (linked lists):** una secuencia de elementos enlazados por punteros. Cada elemento (nodo) contiene un valor y un puntero al siguiente nodo.
 
