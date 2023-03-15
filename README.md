@@ -73,7 +73,7 @@ En **lenguajes no tipados**, como javascript, no solemos darle importancia al ti
 				
 Este **problema del tipado**, hoy en día, cuando una App es pequeña, no tiene mayor incidencia en la memoria. Pero sí tiene **incidencia, al detectar errores en el código y facilitar el mantenimiento**. En el caso de Javascript, un lenguaje que busca solucionar esto es **_TypeScript_**, el cual introduce "sintaxis de tipado estático" que permite definir tipos de datos para las variables. Y con esto, lo que quiero decir, es que :eyes::eyes: **entender la estructura de los datos, no sólo tiene que ver con cuestiones de eficiencia y almacenamiento, sino, que entender que los tipos de datos, en cada uno de los flujos, también tiene incidencia al momento de producirse errores o problemas de mantenimiento de la App** :eyes::eyes:. 
 
-![https://www.typescriptlang.org/](https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-plain.svg =250x250)
+<a href="https://www.typescriptlang.org/" target="blank"><img align="center" src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-plain.svg" alt="" height="40" width="40" /></a>
 
 
 ---
