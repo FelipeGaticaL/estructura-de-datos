@@ -78,8 +78,7 @@ Este **problema del tipado**, hoy en día, cuando una App es pequeña, no tiene 
 
 ---
 
-### Estructura de datos internos:
-#### Estructuras estáticas
+### Estructura de datos internos: Estructuras estáticas :mount_fuji:
 
 - :owl:**Array (Arreglo):** Objetos similares a una lista cuyo prototipo proporciona métodos para efectuar operaciones de recorrido y de mutación. 
 
