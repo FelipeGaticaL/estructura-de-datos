@@ -197,7 +197,9 @@ const miTupla = { nombre: 'Juan', edad: 25, casado: false };
 ```
 
 _Recurso de profundización:_ 
+
 <sub>https://ntgard.medium.com/tuples-in-javascript-cd33321e5277</sub>
+
 <sub>https://medium.com/the-clever-dev/the-difference-between-a-tuple-and-an-array-in-typescript-e9fe9cc4a862</sub>
 
 
