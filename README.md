@@ -82,7 +82,8 @@ Este **problema del tipado**, hoy en día, cuando una App es pequeña, no tiene 
 
 - :owl:**Array (Arreglo):** Objetos similares a una lista cuyo prototipo proporciona métodos para efectuar operaciones de recorrido y de mutación. 
 
-**Lenguaje Tipado**
+###### Lenguaje Tipado
+
 ```c++
 int numeros[5]; 
 ```
