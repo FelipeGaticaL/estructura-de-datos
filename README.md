@@ -80,7 +80,10 @@ Este **problema del tipado**, hoy en día, cuando una App es pequeña, no tiene 
 
 ### Estructura de datos internos: Estructuras estáticas :mount_fuji:
 
-- :owl:**Array (Arreglo):** Objetos similares a una lista cuyo prototipo proporciona métodos para efectuar operaciones de recorrido y de mutación. 
+**Estático:** Se refiere a que tienen **un tamaño fijo y predefinido** y se utilizan para almacenar datos que no cambian de tamaño durante la ejecución de un programa
+
+
+- :owl:**Array (Arreglo):** Objetos similares a una lista cuyo prototipo proporciona métodos para efectuar operaciones de recorrido y de mutación. En este caso, presentamos un Array "unidimensional". 
 
 <sub> Lenguaje Tipado </sub>
 
@@ -169,7 +172,12 @@ const PI = 3.1416;
 
 ### Estructura de datos internos: Estructuras dinámicas :volcano:
 
+**Dinámico**: Se refiere a **puede variar de tamaño** durante la ejecución del programa y se utilizan para almacenar datos que pueden crecer o disminuir en tamaño. 
+
+
 **Lineales**
+
+**_Son aquellas en las que los datos están organizados en una secuencia lineal, es decir, cada elemento está conectado con su sucesor y predecesor (si lo tiene)._**
 
 - Listas enlazadas (linked lists): una secuencia de elementos enlazados por punteros. Cada elemento (nodo) contiene un valor y un puntero al siguiente nodo.
 
@@ -178,6 +186,8 @@ const PI = 3.1416;
 - Pilas (stacks): una secuencia en la que el último elemento en ser agregado es el primero en ser eliminado (LIFO, last-in-first-out). También se puede implementar utilizando una lista enlazada o un arreglo.
 
 **No lineales**
+
+**_Son aquellas que no tienen una organización secuencial, y que por tanto, se pueden entender a veces dentro de lo que se denómina teoría de conjuntos y subconjuntos, que tiene que ver con la relación entre sus elementos_**
 
 - Árboles (trees): una estructura jerárquica en la que cada elemento tiene un padre y cero o más hijos. Los árboles pueden tener un nodo raíz, nodos hoja (sin hijos) y nodos internos (con hijos).
 
@@ -195,8 +205,15 @@ const PI = 3.1416;
 ---
 ### Recursos para profundizar:
 
+#### Estructura de datos
+
 - https://www.geeksforgeeks.org/data-structures/
 - https://www.programiz.com/dsa/data-structure-types
 - https://www.javatpoint.com/data-structure-tutorial
 - https://towardsdatascience.com/8-common-data-structures-every-programmer-must-know-171acf6a1a42
 - https://www.simplilearn.com/tutorials/data-structure-tutorial/what-is-data-structure
+
+
+#### Teoría de conjuntos
+
+- http://www.matematicas.ciencias.uchile.cl/juaco/section-2.html
