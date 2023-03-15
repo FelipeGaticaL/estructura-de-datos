@@ -197,8 +197,9 @@ const miTupla = { nombre: 'Juan', edad: 25, casado: false };
 ```
 
 _Recurso de profundización:_ 
-- <sub>https://ntgard.medium.com/tuples-in-javascript-cd33321e5277</sub>
-- <sub>https://medium.com/the-clever-dev/the-difference-between-a-tuple-and-an-array-in-typescript-e9fe9cc4a862</sub>
+<sub>https://ntgard.medium.com/tuples-in-javascript-cd33321e5277</sub>
+<sub>https://medium.com/the-clever-dev/the-difference-between-a-tuple-and-an-array-in-typescript-e9fe9cc4a862</sub>
+
 
 - Colas (queues): una secuencia en la que el primer elemento en ser agregado es el primero en ser eliminado (FIFO, first-in-first-out). Se puede implementar utilizando una lista enlazada o un arreglo.
 
@@ -239,7 +240,7 @@ _Estructuras generales_
 - XML
 - CSV 
 
-#### **Conceptos claves "base de datos":**
+### **Conceptos claves "base de datos":**
 
 #### Qué es SQL?
 
@@ -272,7 +273,6 @@ NoSQL (Not Only SQL) se centra en tablas y relaciones predefinidas entre ellas, 
 **Conceptos importantes en SQL:**
 
 Document database, Key-value store, Column-family database, Graph database, Sharding, Replication, CAP theorem, MapReduce, Consistency model, BSON, Query API, Indexing strategies, Distributed database, Eventual consistency, ACID vs. BASE y Document-oriented design
-
 
 
 ---
