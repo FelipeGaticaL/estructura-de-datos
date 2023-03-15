@@ -7,6 +7,9 @@ Existen dos grandes aristas en la estructura de datos, de **dimensiones internas
 		
 La segunda manera de ver esto, es pensar que la estructura de datos tiene dos líneas generales, en las cuales existe un set de herramientas, que dependen de las necesidades del proyecto por el tipo de flujo, eficiencia y volumen en el manejo de datos. 
 
+
+**Diagrama de Estructura de Datos**
+
 ![Image text](https://github.com/FelipeGaticaL/estructura-de-datos/blob/main/assets/EstructuraDatosDiagramBlack.png)
 
 ---
@@ -31,7 +34,10 @@ Existen de dos tipos, **estática y dinámica**. La primera es un elemento que s
 				
 - Estático sería: **variable = [a,b,c,d]** -> Ya existe declarada por tanto se sabe la memoria a utilizar.
 - Dinámico sería: **new variable = [e,f,g,h]** -> Tiene asignado una memoria inicial, pero, digamos que debemos iterar más elementos con un **bucle for y push (js)**. Bueno, ahora dependerá del flujo y cantidad de datos, cuánta memoria final abarcará al terminar el proceso.
-				
+
+
+**Ejemplo de iteración dinámica**
+
 ```js
 
 const numeros = []; // Asignamiento de memoria
