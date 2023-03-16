@@ -244,7 +244,7 @@ _Estructuras generales_
 - XML
 - CSV 
 
-### **Conceptos claves "base de datos":**
+### **Sobre las bases de datos":**
 
 #### Qué es SQL?
 
@@ -258,7 +258,7 @@ SQL (Structured Query Language) es un lenguaje de programación utilizado para a
 - Microsoft SQL Server
 - SQLite
 
-**Conceptos importantes en SQL:**
+**Algunos conceptos importantes en SQL:**
 
 Tables, Stored procedures, Indexes, Primary key, UUID, Foreign key, Join, Query, Transaction, View, Trigger, Aggregate function, Data type, Constraint, Normalization, Subquery, Cursor, Backup and restore, Replication, User-defined function (UDF) y ACID properties.
 
@@ -274,7 +274,7 @@ NoSQL (Not Only SQL) se centra en tablas y relaciones predefinidas entre ellas, 
 - CouchDB
 - Redis
 
-**Conceptos importantes en SQL:**
+**Algunos conceptos importantes en SQL:**
 
 Document database, Key-value store, Column-family database, Graph database, Sharding, Replication, CAP theorem, MapReduce, Consistency model, BSON, Query API, Indexing strategies, Distributed database, Eventual consistency, ACID vs. BASE y Document-oriented design
 
