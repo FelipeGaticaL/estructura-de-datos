@@ -217,7 +217,7 @@ _<sub>Recurso de profundización:<sub>_ <sub>https://medium.com/@dcortes.net/pil
 
 **_Son aquellas que no tienen una organización secuencial, y que por tanto, se pueden entender a veces dentro de lo que se denómina teoría de conjuntos y subconjuntos, que tiene que ver con la relación entre sus elementos_**
 
-- :woman_technologist:**Árboles (trees):** una estructura jerárquica en la que cada elemento tiene un padre y cero o más hijos. Los árboles pueden tener un nodo raíz, nodos hoja (sin hijos) y nodos internos (con hijos).
+- :woman_technologist:**Árboles binarios (binary tree):** una estructura jerárquica en la que cada elemento tiene un padre y cero o más hijos. Los árboles pueden tener un nodo raíz, nodos hoja (sin hijos) y nodos internos (con hijos).
 
 _<sub>Recurso de profundización:<sub>_ <sub>https://medium.com/laboratoria-developers/%C3%A1rboles-trees-51783ba4ebe5</sub>
 
@@ -235,7 +235,7 @@ _<sub>Recurso de profundización:<sub>_ <sub>https://medium.com/@aliafsah1988/ha
 
 Las estructuras de datos externas son una clase especial de estructuras de datos que se utilizan para manejar **grandes cantidades de datos** que no caben completamente en la memoria principal de un sistema. Estas estructuras son esenciales en aplicaciones que procesan grandes conjuntos de datos, como bases de datos, sistemas de almacenamiento en disco y sistemas de archivos. El objetivo principal de las estructuras de datos externas es permitir un acceso eficiente a los datos almacenados en dispositivos externos, como discos duros, cintas magnéticas y memorias USB, lo que hace posible procesar conjuntos de datos que no caben completamente en la memoria principal del sistema.
 
-_Estructuras generales_
+_Elementos generales_
 
 - Base de datos
     - SQL
@@ -274,9 +274,15 @@ NoSQL (Not Only SQL) se centra en tablas y relaciones predefinidas entre ellas, 
 - CouchDB
 - Redis
 
-**Algunos conceptos importantes en SQL:**
+**Algunos conceptos importantes en NoSQL:**
 
 Document database, Key-value store, Column-family database, Graph database, Sharding, Replication, CAP theorem, MapReduce, Consistency model, BSON, Query API, Indexing strategies, Distributed database, Eventual consistency, ACID vs. BASE y Document-oriented design
+
+
+### Conclusión
+
+Si bien la estructura de datos trata inherentemente de el uso de memoria, lo que se quiere rescatar en este articulo, es en **cómo este conocimiento nos sirve para poder visualizar cuáles pueden ser posible soluciones eficientes ante el "tipo" y "volumen" de datos**. Que, por ejemplo, cuando el volumen es demasiado grande, soluciones lineales secuenciales, tal vez, no sean la mejor opción. Es entonces, que tener claro qué tipo de estructura de datos existen, no ayudan a planificar y utilizar herramientas, tecnologias y métodos propicios para cada problemática en el desarrollo de software. 
+
 
 
 ---
