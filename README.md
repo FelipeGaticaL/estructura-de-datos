@@ -278,8 +278,9 @@ NoSQL (Not Only SQL) se centra en tablas y relaciones predefinidas entre ellas, 
 
 Document database, Key-value store, Column-family database, Graph database, Sharding, Replication, CAP theorem, MapReduce, Consistency model, BSON, Query API, Indexing strategies, Distributed database, Eventual consistency, ACID vs. BASE y Document-oriented design
 
+---
 
-### Conclusión
+## Conclusión
 
 Si bien la estructura de datos trata inherentemente de el uso de memoria, lo que se quiere rescatar en este articulo, es en **cómo este conocimiento nos sirve para poder visualizar cuáles pueden ser posible soluciones eficientes ante el "tipo" y "volumen" de datos**. Que, por ejemplo, cuando el volumen es demasiado grande, soluciones lineales secuenciales, tal vez, no sean la mejor opción. Es entonces, que tener claro qué tipo de estructura de datos existen, no ayudan a planificar y utilizar herramientas, tecnologias y métodos propicios para cada problemática en el desarrollo de software. 
 
